@@ -1,3 +1,4 @@
+
 export default function Header() {
   return (
     <header>
@@ -5,11 +6,11 @@ export default function Header() {
 
 
 <nav>
-    <a href="home.html">Home</a>
+    <a href="/home.html">Home</a>
     ||
-    <a href="introduction.html">Introduction</a>
+    <a href="/introduction.html">Introduction</a>
     ||
-    <a href="contract.html">Contract</a>
+    <a href="/contract.html">Contract</a>
 </nav>
 
     </header>
