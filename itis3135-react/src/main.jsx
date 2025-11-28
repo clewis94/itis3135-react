@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Introduction from './Introduction.jsx'
 import Contract from './Contract.jsx'
 import Home from './Home.jsx'
+import Students from './students.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/introduction' element={<Introduction/>}></Route>
           <Route path='/contract' element={<Contract/>}></Route>
           <Route path='/home' element={<Home/>}></Route>
+          <Route path='/students' element={<Students/>}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
